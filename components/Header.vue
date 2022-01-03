@@ -9,7 +9,14 @@
 		<nav class="navbar navbar-light navbar-expand-md">
 			<div class="container">
 				<NuxtLink to="/" class="navbar-brand">
-					<i class="bi bi-bootstrap fs-3"></i>
+					<i class="bi bi-arrow-down fs-3"></i>
+					 <b-navbar-brand to="/">
+						<img
+							class="logo"
+							src="~/assets/img/bidet.png"
+							alt="Ai Bidet Logo"
+						>
+					</b-navbar-brand>
 				</NuxtLink>
 
 				<button @click="navbarOpen = !navbarOpen" type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +43,7 @@
 				scrollOffset:   100,
 				scrollPosition: 0,
 				menu: [
-					{ name: 'Overview', to: '#' },
-					{ name: 'Components', to: '#' },
-					{ name: 'Plugins', to: '#' },
-					{ name: 'Examples', to: '#' },
-					{ name: 'Support', to: '#' }
+					{ name: 'Logout', to: '#' }
 				]
 			}
 		},
