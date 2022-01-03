@@ -11,8 +11,14 @@
   "BiasTab": {
     "description": "Auto imported from components/biasTab.vue"
   },
+  "CountTag": {
+    "description": "Auto imported from components/countTag.vue"
+  },
   "DatasetTab": {
     "description": "Auto imported from components/datasetTab.vue"
+  },
+  "LandingLeftSide": {
+    "description": "Auto imported from components/landingLeftSide.vue"
   },
   "MultiSelect": {
     "description": "Auto imported from components/multiSelect.vue"

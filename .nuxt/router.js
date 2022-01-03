@@ -4,8 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _43aeb9cd = () => interopDefault(import('../pages/list.vue' /* webpackChunkName: "pages/list" */))
 const _1744a2ca = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _5ba14756 = () => interopDefault(import('../pages/newReport.vue' /* webpackChunkName: "pages/newReport" */))
+const _7a8d09d2 = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
+const _a18dccba = () => interopDefault(import('../pages/report.vue' /* webpackChunkName: "pages/report" */))
 const _4d9cffb3 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -20,13 +22,21 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/list",
+    component: _43aeb9cd,
+    name: "list"
+  }, {
     path: "/login",
     component: _1744a2ca,
     name: "login"
   }, {
-    path: "/newReport",
-    component: _5ba14756,
-    name: "newReport"
+    path: "/register",
+    component: _7a8d09d2,
+    name: "register"
+  }, {
+    path: "/report",
+    component: _a18dccba,
+    name: "report"
   }, {
     path: "/",
     component: _4d9cffb3,

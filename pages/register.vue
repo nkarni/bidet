@@ -5,9 +5,8 @@
 			<landing-left-side></landing-left-side>
 			</div>
 				<div class="col-6">
-					Sign in form, sign in button takes to list
-					<b-link to="list">Sign In</b-link>
-					<p>register link is: <b-link to="register">Register</b-link></p>
+					Register form, register button takes to list
+					<b-link to="list">Register</b-link>
 			</div>
 		</div>
 	</div>

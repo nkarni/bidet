@@ -1,5 +1,13 @@
 [
   {
+    "name": "list",
+    "path": "/list",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/list.vue",
+    "chunkName": "pages/list",
+    "url": "/list",
+    "_name": "_43aeb9cd"
+  },
+  {
     "name": "login",
     "path": "/login",
     "component": "/Users/nitzankarni/Dev/vue/bidet/pages/login.vue",
@@ -8,12 +16,20 @@
     "_name": "_1744a2ca"
   },
   {
-    "name": "newReport",
-    "path": "/newReport",
-    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/newReport.vue",
-    "chunkName": "pages/newReport",
-    "url": "/newReport",
-    "_name": "_5ba14756"
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/register.vue",
+    "chunkName": "pages/register",
+    "url": "/register",
+    "_name": "_7a8d09d2"
+  },
+  {
+    "name": "report",
+    "path": "/report",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/report.vue",
+    "chunkName": "pages/report",
+    "url": "/report",
+    "_name": "_a18dccba"
   },
   {
     "name": "index",
