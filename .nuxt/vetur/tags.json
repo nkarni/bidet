@@ -1,0 +1,35 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "BiasTab": {
+    "description": "Auto imported from components/biasTab.vue"
+  },
+  "DatasetTab": {
+    "description": "Auto imported from components/datasetTab.vue"
+  },
+  "MultiSelect": {
+    "description": "Auto imported from components/multiSelect.vue"
+  },
+  "ReportTab": {
+    "description": "Auto imported from components/reportTab.vue"
+  },
+  "TestTab": {
+    "description": "Auto imported from components/testTab.vue"
+  },
+  "Toggle": {
+    "description": "Auto imported from components/toggle.vue"
+  },
+  "LazyEmbed": {
+    "description": "Auto imported from components/Lazy/Embed.vue"
+  },
+  "LazyImg": {
+    "description": "Auto imported from components/Lazy/Img.vue"
+  }
+}

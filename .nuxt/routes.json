@@ -1,0 +1,26 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/login.vue",
+    "chunkName": "pages/login",
+    "url": "/login",
+    "_name": "_1744a2ca"
+  },
+  {
+    "name": "newReport",
+    "path": "/newReport",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/newReport.vue",
+    "chunkName": "pages/newReport",
+    "url": "/newReport",
+    "_name": "_5ba14756"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_4d9cffb3"
+  }
+]
