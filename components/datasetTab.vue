@@ -2,7 +2,7 @@
   <div>
     <h3>The Dataset</h3>
     <div class="row">
-      <div class="col-3">
+      <div class="col">
         <p>
           Having access to the dataset would be very beneficial for future
           analysis of the bias. If you can - please provide the dataset (upload
@@ -20,6 +20,8 @@
           >.
         </p>
       </div>
+    </div>
+    <div class="row">
       <div class="col">
         <b-form>
           <b-form-group

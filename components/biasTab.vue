@@ -2,7 +2,7 @@
   <div>
     <h3>The Bias(es)</h3>
     <div class="row">
-      <div class="col-3">
+      <div class="col">
         <h4>Bias Discovery</h4>
         <p>
           Data about the discovery, e.g. how the bias was discovered, by whom and what motivated them to look for it, 
@@ -10,6 +10,8 @@
         </p>
         <p>For example, it could inform on questions with regards to the roles that discover more or less bias, how they differ in discovering and reporting on it and what type bias they tend to discover. </p>
       </div>
+    </div>
+    <div class="row">
       <div class="col">
         <b-form>
           <b-form-group
@@ -45,13 +47,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col">
         <h4>Validating and Quantifying</h4>
         <p>
           We want to know What methodologied, tools, metrics etc were used to detect and/or quantify the bias. Any information you can share about the process is helpful.
         </p>
         <p>If you are up to it, please indicate if you used one of the tools we list, and let us know if you've used a tool that is not on the list.</p>
       </div>
+    </div>
+    <div class="row">
       <div class="col">
        <b-form>
           <b-form-group
@@ -102,13 +106,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col">
         <h4>Labels/Protected Attributes</h4>
         <p>
           Please list all protected attributes that were affected by this bias (eg. sex, income, age). For each attribute you will be asked to provide details about 
           the values that were affected (eg. Female, Over 40's)
         </p>
       </div>
+    </div>
+    <div class="row">
       <div class="col">
         <b-form>
            <b-form-group
