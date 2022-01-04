@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  client:
+    image: node:14.15.3
+    command: bash /start-client.sh
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/client
+      - ./start-client.sh:/start-client.sh
+

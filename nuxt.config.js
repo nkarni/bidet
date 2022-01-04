@@ -46,7 +46,6 @@ export default {
 		// https://github.com/nuxt-community/robots-module
 		'@nuxtjs/robots',
 		// https://sitemap.nuxtjs.org/
-		'@nuxtjs/sitemap',
 		'bootstrap-vue/nuxt',
 		'nuxt-vue-multiselect'
 	],
