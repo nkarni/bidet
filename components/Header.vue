@@ -9,7 +9,6 @@
 		<nav class="navbar navbar-light navbar-expand-md">
 			<div class="container">
 				<NuxtLink to="/" class="navbar-brand">
-					<i class="bi bi-arrow-down fs-3"></i>
 					 <b-navbar-brand to="/">
 						<img
 							class="logo"
