@@ -1,10 +1,18 @@
 .table {
+	border: 1px solid #caced3;
 	th {
 		border-bottom: 0;
-		background: $table-th-bg;
+		background: #E7E8E9;
 		font-size: $table-th-font-size;
 		font-family: $table-th-font-family;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
+
+	td{
+		background-color: white;
+	}
+}
+.table > :not(:first-child) {
+    border-top: 1px solid #c1c1c1;
 }

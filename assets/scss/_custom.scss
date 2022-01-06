@@ -7,3 +7,21 @@
   object-fit: cover;
   object-position: center;
 }
+
+.countTag{
+  margin: 0 !important;
+  margin-left: 5px;
+  background-color: #066bf9;
+  border-radius: 50%;
+  color: white;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+}
+.tab-content{
+  background-color: #fff;
+}

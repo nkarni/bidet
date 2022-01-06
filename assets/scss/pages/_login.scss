@@ -9,3 +9,30 @@
     }
   }
 }
+
+.login-left{
+  background-image: url(../img/login-bg.jpg);
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vh{
+  height: 100vh;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.login-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  >div{
+    width: 100%;
+    max-width: 70%;
+  }
+}

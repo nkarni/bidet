@@ -1,5 +1,5 @@
 <template>
-	<header class="header bg-light shadow mb-3"
+	<header class="header bg-light border-bottom"
 		:class="{
 			'navbar-top':    scrollPosition < scrollOffset,
 			'navbar-scroll': scrollPosition > scrollOffset,
@@ -12,7 +12,7 @@
 					 <b-navbar-brand to="/">
 						<img
 							class="logo"
-							src="~/assets/img/bidet.png"
+							src="~/assets/img/logo-dark.svg"
 							alt="Ai Bidet Logo"
 						>
 					</b-navbar-brand>

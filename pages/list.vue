@@ -1,8 +1,10 @@
 <template>
-	<div class="container">
-		<div class="text-right">
-			<b-link to="report">New</b-link>
+	<div class="container p-5">
+		<div class="title-wrap">
+			<h3>Reported Bias Detection Events</h3>
+			<b-link class="btn btn-primary btn-sm" to="report">New</b-link>
 		</div>
+		
 		<table class="table">
 			<thead>
 				<tr>
@@ -19,9 +21,9 @@
 					<td >12 March 2021</td>
 					<td>Nitzan Karni (pre-populated sample 1)</td>
 					<td>Reporter</td>
-					<td><b-button>SUBMITTED</b-button></td>
-					<td><b-button variant="outline-primary">Requested <count-tag value="2"></count-tag></b-button></td>
-					<td><b-link to="report?id=0">VIEW</b-link></td>
+					<td><b-button size="sm">SUBMITTED</b-button></td>
+					<td><b-button size="sm" variant="outline-primary">Requested <count-tag value="2"></count-tag></b-button></td>
+					<td><b-link size="sm" variant="primary" to="report?id=0">VIEW</b-link></td>
 				</tr>
 			</tbody>
 		</table>
