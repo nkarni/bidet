@@ -7,20 +7,19 @@
       <div class="col-6">
         <div class="p-5 login-wrapper">
 			<div>
-          <h2>Sign in</h2>
+          <h3>Sign in</h3>
           <p>
             Don’t have account? <b-link to="register">Create account</b-link>
           </p>
           <b-form class="mt-3">
             <b-form-group
               id="input-group-1"
-              label="Email address:"
+              label="Email address"
               label-for="input-1"
             >
               <b-form-input
                 id="input-1"
                 type="email"
-                placeholder="Enter email"
                 required
               ></b-form-input>
             </b-form-group>
@@ -32,7 +31,6 @@
               <b-form-input
                 id="input-2"
                 type="password"
-                placeholder="Enter password"
                 required
               ></b-form-input>
             </b-form-group>

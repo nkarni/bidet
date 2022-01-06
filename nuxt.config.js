@@ -20,7 +20,7 @@ export default {
 			{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 			{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
 			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap' },
-			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap' },
+			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato&display=swap' },
 		],
 		script: [
 			{ src: 'https://polyfill.io/v3/polyfill.min.js?features=es6', body: true },

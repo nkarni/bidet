@@ -14,8 +14,8 @@ $gray:      hsl(220, 10%, 30%);
 $gray-dark: hsl(220, 10%, 10%);
 
 // Color scheme
-$primary:   $blue;
-$secondary: $gray;
+$primary:   #003566;
+$secondary: #E3E2E2;
 
 // Theme
 $colors: (
@@ -46,7 +46,7 @@ $theme-colors:     map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 // Fonts
-$font-family-base:     "Roboto", $font-family-sans-serif;
+$font-family-base:     "Lato", $font-family-sans-serif;
 // Fonts: Headings
 $headings-font-family: "Montserrat", $font-family-sans-serif;
 $headings-font-weight: 700;
