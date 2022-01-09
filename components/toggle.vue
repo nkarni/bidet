@@ -30,5 +30,9 @@
 </script>
 
 <style lang="scss" scoped >
-	
+	.btn:focus {
+		border: 0 !important;
+		box-shadow: none !important;
+	}
+
 </style>

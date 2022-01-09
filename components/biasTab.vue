@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h3>The Bias(es)</h3>
     <div class="row">
       <div class="col">
         <h4>Bias Discovery</h4>
@@ -48,7 +47,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h4>Validating and Quantifying</h4>
+        <h4 class="mt-4">Validating and Quantifying</h4>
         <div class="form-text">
           <p>We want to know What methodologied, tools, metrics etc were used to detect and/or quantify the bias. Any information you can share about the process is helpful.
           <br>
@@ -108,7 +107,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h4>Labels/Protected Attributes</h4>
+        <h4 class="mt-4">Labels/Protected Attributes</h4>
         
       </div>
     </div>
@@ -173,7 +172,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h4>intersectionality</h4>
+        <h4 class="mt-4">intersectionality</h4>
         <div class="form-text">
           <p>
           intersectionality refers to an overlap in the groups you lisetd above, for example when an indvidual who belongs to both Sex:female group and also to Income:low is discirimated against in the system compared to individuals who are not in this specific group combination.</p>

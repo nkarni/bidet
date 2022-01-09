@@ -21,7 +21,7 @@
 					<td >12 March 2021</td>
 					<td>Nitzan Karni (pre-populated sample 1)</td>
 					<td>Reporter</td>
-					<td class="text-center"><b-button size="sm">SUBMITTED</b-button></td>
+					<td class="text-center"><b-button variant="success" size="sm">SUBMITTED</b-button></td>
 					<td class="text-center"><b-button size="sm" variant="outline-primary">Requested <count-tag value="2"></count-tag></b-button></td>
 					<td class="text-center"><b-button size="sm" variant="primary" to="report?id=0">View</b-button></td>
 				</tr>

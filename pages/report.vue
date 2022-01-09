@@ -2,7 +2,7 @@
   <div class="container p-5">
     <div class="row">
       <div class="col">
-        <h3 class="mb-3"><span>Bias Detection Events</span><span style="float:right;font-size:14px"><NuxtLink to="list" class="nav-link">Back to dashboard</NuxtLink></span></h3>
+        <h3 class="mb-3"><span>Bias Detection Events</span><span style="float:right;font-size:14px"><NuxtLink to="list" class="nav-link pr-0">Back to dashboard</NuxtLink></span></h3>
         <b-tabs v-model="tabIndex" small card>
           <b-tab title="The Dataset">
             <dataset-tab :bias="bias"></dataset-tab>
