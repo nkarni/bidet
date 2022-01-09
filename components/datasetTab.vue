@@ -2,15 +2,14 @@
   <div>
     <h3 class="mb-4">The Dataset</h3>
     <div class="row">
-      <div class="col">
+      <div class="col form-text">
         <p>
           Having access to the dataset would be very beneficial for future
           analysis of the bias. If you can - please provide the dataset (upload
           it or provide a publicly available url). If you cannot provide it for
           proprietary or privacy reasons we'd still appreciate any information
           you can provide about it.
-        </p>
-        <p>
+       <br>
           If you do provide the dataset, please make sure the data is anonymised
           or de-identified (see
           <a
