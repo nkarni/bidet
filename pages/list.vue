@@ -11,9 +11,9 @@
 					<th scope="col">Date</th>
 					<th scope="col">Reported By</th>
 					<th scope="col">My Role</th>
-					<th scope="col">Status</th>
-					<th scope="col">Peer Review Status + count</th>
-					<th scope="col">Actions</th>
+					<th scope="col" class="text-center">Status</th>
+					<th scope="col" class="text-center">Peer Review Status + count</th>
+					<th scope="col" class="text-center">Actions</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -21,9 +21,9 @@
 					<td >12 March 2021</td>
 					<td>Nitzan Karni (pre-populated sample 1)</td>
 					<td>Reporter</td>
-					<td><b-button size="sm">SUBMITTED</b-button></td>
-					<td><b-button size="sm" variant="outline-primary">Requested <count-tag value="2"></count-tag></b-button></td>
-					<td><b-link size="sm" variant="primary" to="report?id=0">VIEW</b-link></td>
+					<td class="text-center"><b-button size="sm">SUBMITTED</b-button></td>
+					<td class="text-center"><b-button size="sm" variant="outline-primary">Requested <count-tag value="2"></count-tag></b-button></td>
+					<td class="text-center"><b-button size="sm" variant="primary" to="report?id=0">View</b-button></td>
 				</tr>
 			</tbody>
 		</table>

@@ -136,7 +136,7 @@
 
           <b-form-group
           >
-            <b-button @click.prevent="addGroup" variant="info">Add</b-button>
+            <b-button @click.prevent="addGroup" variant="primary">Add</b-button>
           </b-form-group>
         </b-form>
       </div>
@@ -153,8 +153,7 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">Type</th>
-              <th scope="col">Detail</th>
+              <th scope="col">Labels/Protected Attributes (Type:Details)</th>
               <th scope="col">&nbsp;</th>
             </tr>
           </thead>
@@ -162,9 +161,8 @@
             <tr v-for="(group, index) of bias.affectedGroups"
                 :key="index"
                 v-bind:id="group + '-' + index">
-              <td> {{group.type}} </td>
-                <td>{{group.type}}</td>
-              <td><b-button @click.prevent="removeGroup(index)" variant="info">Remove</b-button></td>
+              <td class="align-middle"> {{group.type}}:  {{group.type}}</td>
+              <td clas="text-right"><b-button @click.prevent="removeGroup(index)" variant="link"><i class="bi bi-x-circle fs-5" ></i></b-button></td>
             </tr>
           </tbody>
         </table>
@@ -218,7 +216,7 @@
             <div class="row">
             <div class="col">
               <b-form-group>
-              <b-button @click.prevent="addIntersect" variant="info">Add</b-button>
+              <b-button @click.prevent="addIntersect" variant="primary">Add</b-button>
               </b-form-group>
             </div>
           </div>
