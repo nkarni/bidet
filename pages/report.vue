@@ -2,7 +2,7 @@
   <div class="container p-5">
     <div class="row">
       <div class="col">
-        <h3 class="mb-3">Bias Detection Events</h3>
+        <h3 class="mb-3"><span>Bias Detection Events</span><span style="float:right;font-size:14px"><NuxtLink to="list" class="nav-link">Back to dashboard</NuxtLink></span></h3>
         <b-tabs v-model="tabIndex" small card>
           <b-tab title="The Dataset">
             <dataset-tab :bias="bias"></dataset-tab>
@@ -16,7 +16,8 @@
             <bias-tab :bias="bias"></bias-tab>
             <div class="text-center">
               <b-button-group class="d-grid gap-2 d-md-block">
-                <b-button class="mr-3" @click="tabIndex--">Previous</b-button>
+                <b-button @click="tabIndex--">Previous</b-button>
+                &nbsp;
                 <b-button @click="tabIndex++">Next</b-button>
               </b-button-group>
             </div>

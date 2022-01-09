@@ -48,3 +48,12 @@
   background-color: #fff;
   border-bottom: 1px solid #dee2e6;
 }
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-bottom: solid #003566 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.nav-tabs .nav-link{
+  font-size: 16px;
+}
