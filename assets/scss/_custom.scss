@@ -7,3 +7,44 @@
   object-fit: cover;
   object-position: center;
 }
+
+.countTag{
+  margin: 0 !important;
+  margin-left: 5px;
+  background-color: #066bf9;
+  border-radius: 50%;
+  color: white;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+}
+.tab-content{
+  background-color: #fff;
+  padding: 30px
+}
+
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.card-header{
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+}

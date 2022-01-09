@@ -1,7 +1,7 @@
 <template>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-6 login-left">
 			<landing-left-side></landing-left-side>
 			</div>
 				<div class="col-6">

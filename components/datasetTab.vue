@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>The Dataset</h3>
+    <h3 class="mb-4">The Dataset</h3>
     <div class="row">
       <div class="col">
         <p>
