@@ -28,7 +28,7 @@
     {
       "hid": "description",
       "name": "description",
-      "content": "A simple ready-to-go boilerplate for Nuxt! [Nuxt.js](https://github.com/nuxt/nuxt.js) [Bootstrap 5](https://github.com/twbs/bootstrap) [Bootstrap Icons](https://github.com/twbs/icons) boilerplate with some modifications."
+      "content": "A prototype of data capture interface for an AI bias repository"
     },
     {
       "hid": "og:type",
@@ -52,7 +52,7 @@
       "hid": "og:description",
       "name": "og:description",
       "property": "og:description",
-      "content": "A simple ready-to-go boilerplate for Nuxt! [Nuxt.js](https://github.com/nuxt/nuxt.js) [Bootstrap 5](https://github.com/twbs/bootstrap) [Bootstrap Icons](https://github.com/twbs/icons) boilerplate with some modifications."
+      "content": "A prototype of data capture interface for an AI bias repository"
     }
   ],
   "link": [
@@ -69,7 +69,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.abd74f73.json",
+      "href": "/_nuxt/manifest.ce5957d9.json",
       "hid": "manifest"
     }
   ],

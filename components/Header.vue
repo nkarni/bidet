@@ -1,5 +1,7 @@
 <template>
-	<header class="header bg-light border-bottom"
+	<header 
+	v-if="hideHeader"
+	class="header bg-light border-bottom"
 		:class="{
 			'navbar-top':    scrollPosition < scrollOffset,
 			'navbar-scroll': scrollPosition > scrollOffset,
@@ -14,6 +16,7 @@
 							class="logo"
 							src="~/assets/img/logo-dark.svg"
 							alt="Ai Bidet Logo"
+							v-if="this.$route.path"
 						>
 					</b-navbar-brand>
 				</NuxtLink>
@@ -50,6 +53,14 @@
 		methods: {
 			updateScroll() {
 			this.scrollPosition = window.scrollY
+			}
+		},
+
+		computed: {
+			hideHeader() {
+				console.log(this.$route.path)
+				console.log(['/','/register'].indexOf(this.$route.path))
+				return ['/','/register'].indexOf(this.$route.path) < 0
 			}
 		},
 		
