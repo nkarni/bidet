@@ -93,11 +93,21 @@
           <b-form-group
             label="What process, methodologies, mathematical or statistical tecniques were used to detect or evaluate the bias?"
             label-for="methodologies"
-            description="We'd also like to know your assesment of the methods, how well did they work?"
           >
             <b-form-textarea
               id="methodologies"
               v-model="bias.methodologies"
+              rows="3"
+              max-rows="6"
+            ></b-form-textarea>
+          </b-form-group>
+           <b-form-group
+            label="We'd also like to know your asessment of the methods and tools, how well did they work?"
+            label-for="methodologies"
+          >
+            <b-form-textarea
+              id="methodologiesAsessment"
+              v-model="bias.methodologiesAsessment"
               rows="3"
               max-rows="6"
             ></b-form-textarea>
@@ -172,7 +182,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h4 class="mt-4">intersectionality</h4>
+        <h4 class="mt-4">Intersectionality</h4>
         <div class="form-text">
           <p>
           intersectionality refers to an overlap in the groups you lisetd above, for example when an indvidual who belongs to both Sex:female group and also to Income:low is discirimated against in the system compared to individuals who are not in this specific group combination.</p>

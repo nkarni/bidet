@@ -3,28 +3,24 @@
     "name": "list",
     "path": "/list",
     "component": "/client/pages/list.vue",
-    "chunkName": "pages/list",
-    "_name": "_1a3a78e8"
+    "chunkName": "pages/list"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "/client/pages/register.vue",
-    "chunkName": "pages/register",
-    "_name": "_0dcfc7de"
+    "chunkName": "pages/register"
   },
   {
     "name": "report",
     "path": "/report",
     "component": "/client/pages/report.vue",
-    "chunkName": "pages/report",
-    "_name": "_6191afa2"
+    "chunkName": "pages/report"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/client/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_f62ba458"
+    "chunkName": "pages/index"
   }
 ]

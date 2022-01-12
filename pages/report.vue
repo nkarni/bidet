@@ -80,6 +80,7 @@ export default {
         allowPeerReview: true,
         moreInfo: "",
         status: "Pending Review",
+        methodologiesAsessment: ""
       },
       tabIndex: 0,
       prePopBiases: [
@@ -128,6 +129,7 @@ export default {
           allowPeerReview: true,
           moreInfo: "",
           status: "Pending",
+          methodologiesAsessment: ""
         },
       ],
     };

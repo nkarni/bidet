@@ -15,7 +15,7 @@
 						<img
 							class="logo"
 							src="~/assets/img/logo-dark.svg"
-							alt="Ai Bidet Logo"
+							alt="AI Bidet Logo"
 							v-if="this.$route.path"
 						>
 					</b-navbar-brand>
