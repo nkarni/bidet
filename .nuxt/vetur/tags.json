@@ -26,6 +26,9 @@
   "ReportTab": {
     "description": "Auto imported from components/reportTab.vue"
   },
+  "ReviewTab": {
+    "description": "Auto imported from components/reviewTab.vue"
+  },
   "TestTab": {
     "description": "Auto imported from components/testTab.vue"
   },

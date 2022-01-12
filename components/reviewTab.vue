@@ -1,5 +1,19 @@
 <template>
   <div>
+     <div class="row">
+      <div class="col">
+        <h4>Dr Jason James (jjames@gmail.com) - 10 Nov 2021</h4>
+        <b-form-group
+            label="Reviewer comments" 
+          >
+          <div class="form-text">
+          <p>Data about the discovery, e.g. how the bias was discovered, by whom and what motivated them to look for it, 
+          could help in understanding more about the way in which bias is discovered and lead to improvements in detection, education etc.
+          For example, it could inform on questions with regards to the roles that discover more or less bias, how they differ in discovering and reporting on it and what type bias they tend to discover. </p>
+        </div>
+        </b-form-group>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
         <b-form>
@@ -39,7 +53,7 @@
 
 <script>
 export default {
-  name: "datasetTab",
+  name: "reviewTab",
   props: {
     bias: {
       type: Object,

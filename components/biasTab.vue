@@ -152,7 +152,7 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">Labels/Protected Attributes (Type:Details)</th>
+              <th scope="col">Attributes and value details of affected groups (Attribute:Details)</th>
               <th scope="col">&nbsp;</th>
             </tr>
           </thead>
@@ -160,8 +160,8 @@
             <tr v-for="(group, index) of bias.affectedGroups"
                 :key="index"
                 v-bind:id="group + '-' + index">
-              <td class="align-middle"> {{group.type}}:  {{group.type}}</td>
-              <td clas="text-right"><b-button @click.prevent="removeGroup(index)" variant="link"><i class="bi bi-x-circle fs-5" ></i></b-button></td>
+              <td class="align-middle"> {{group.type}}:  {{group.detail}}</td>
+              <td align="right"><b-button @click.prevent="removeGroup(index)" variant="link"><i class="bi bi-x-circle fs-5" ></i></b-button></td>
             </tr>
           </tbody>
         </table>
@@ -178,73 +178,77 @@
           intersectionality refers to an overlap in the groups you lisetd above, for example when an indvidual who belongs to both Sex:female group and also to Income:low is discirimated against in the system compared to individuals who are not in this specific group combination.</p>
         </div>
       </div>
-      <div class="row">
-       <div class="col">
-        <b-form>
-            <b-form-group
-            label="Add intersectionality (which combinations of groups were affected)"
-            label-for="intersects"
-          >
-          <multiselect 
-                  v-model="newIntersectGroups" 
-                  :options="intersectsOptions" 
-                  :multiple="true" 
-                  :close-on-select="false" 
-                  :clear-on-select="false" 
-                  :preserve-search="true" 
-                  placeholder="Start typing to search for an item" 
-                  :preselect-first="false"
-                >
-                </multiselect> 
-            </b-form-group>
-            <div class="row">
-            <div class="col">
-               <b-form-group
-            label="How was this combination of groups affected?"
-            label-for="newIntersectDetail"
-          >
-            <b-form-textarea
-              id="newIntersectDetail"
-              v-model="newIntersectDetail"
-              rows="3"
-              max-rows="6"
-            ></b-form-textarea>
-               </b-form-group>
-            </div>
-          </div>
-            <div class="row">
-            <div class="col">
-              <b-form-group>
-              <b-button @click.prevent="addIntersect" variant="primary">Add</b-button>
-              </b-form-group>
-            </div>
-          </div>
-          
-          <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Intersections</th>
-              <th scope="col">&nbsp;</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(intersect, index) of bias.intersects"
-                        :key="index"
-                        v-bind:id="index">
-              <td>{{intersect.groups.join(' | ')}}
-                <div class="detail">
-                  {{intersect.detail}}
-                </div>
-              </td>
-              <td><b-button @click.prevent="removeIntersect(index)" variant="info">Remove</b-button></td>
-            </tr>
-          </tbody>
-        </table>
-          </b-form-group>
-        </b-form>
-      </div>
-      </div>
     </div>
+    <div class="row">
+      <div class="col">
+      <b-form>
+          <b-form-group
+          label="Add intersectionality (which combinations of groups were affected)"
+          label-for="intersects"
+        >
+        <multiselect 
+                v-model="newIntersectGroups" 
+                :options="intersectsOptions" 
+                :multiple="true" 
+                :close-on-select="false" 
+                :clear-on-select="false" 
+                :preserve-search="true" 
+                placeholder="Start typing to search for an item" 
+                :preselect-first="false"
+              >
+              </multiselect> 
+          </b-form-group>
+          <div class="row">
+          <div class="col">
+              <b-form-group
+          label="How was this combination of groups affected?"
+          label-for="newIntersectDetail"
+        >
+          <b-form-textarea
+            id="newIntersectDetail"
+            v-model="newIntersectDetail"
+            rows="3"
+            max-rows="6"
+          ></b-form-textarea>
+              </b-form-group>
+          </div>
+        </div>
+          <div class="row">
+          <div class="col">
+            <b-form-group>
+            <b-button @click.prevent="addIntersect" variant="primary">Add</b-button>
+            </b-form-group>
+          </div>
+        </div>
+        
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Intersections</th>
+            <th scope="col">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(intersect, index) of bias.intersects"
+                      :key="index"
+                      v-bind:id="index">
+            <td>{{intersect.groups.join(' | ')}}
+              <div class="detail">
+                {{intersect.detail}}
+              </div>
+            </td>
+            <td align="right">
+              <b-button @click.prevent="removeIntersect(index)" variant="link"><i class="bi bi-x-circle fs-5" ></i></b-button>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+
+      </b-form>
+  
+    </div>
+    </div>
+  
   </div>
 </template>
 

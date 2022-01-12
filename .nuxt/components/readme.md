@@ -15,6 +15,7 @@ You can directly use them in pages and other components without the need to impo
 - `<LandingLeftSide>` | `<landing-left-side>` (components/landingLeftSide.vue)
 - `<MultiSelect>` | `<multi-select>` (components/multiSelect.vue)
 - `<ReportTab>` | `<report-tab>` (components/reportTab.vue)
+- `<ReviewTab>` | `<review-tab>` (components/reviewTab.vue)
 - `<TestTab>` | `<test-tab>` (components/testTab.vue)
 - `<Toggle>` | `<toggle>` (components/toggle.vue)
 - `<Embed>` | `<embed>` (components/Lazy/Embed.vue)

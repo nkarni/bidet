@@ -15,8 +15,7 @@
           <a
             href="https://duckduckgo.com/?q=anonymisation+tools"
             target="_blank"
-            >anonymization tools</a
-          >.
+            >anonymization tools</a>).
         </p>
       </div>
     </div>
