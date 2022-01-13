@@ -40,3 +40,19 @@
     width: 100%;
   }
 }
+
+.register-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  >div{
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .btn{
+    width: 100%;
+  }
+}

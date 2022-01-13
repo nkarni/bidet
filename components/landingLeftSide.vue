@@ -2,7 +2,7 @@
   <div class="p-5 vh d-flex flex-column align-items-start justify-content-center">
     <div class="">
     <img src="~/assets/img/logo.svg" alt="" class="mb-5" />
-    <h2 class="mb-3">AI Bias detction Repository</h2>
+    <h2 class="mb-3">AI Bias detection Repository</h2>
     <p>Welcome to Bidet!</h5>
     <p>
       In our quest to reduce or prevent harm caused by Bias in AI systems, we
