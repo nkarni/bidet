@@ -1,7 +1,6 @@
 {
   "name": "nuxtjs-bootstrap-5-boilerplate",
   "short_name": "nuxtjs-bootstrap-5-boilerplate",
-  "description": "A prototype of data capture interface for an AI bias repository",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.5f6a36.png",
