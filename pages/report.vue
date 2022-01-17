@@ -92,9 +92,9 @@ export default {
           datasetUrl:
             "https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29",
           canShareDataset: true,
-          whoDiscovered: "Other",
-          whoDiscoveredDetail: "The CEO's grandma",
-          howDiscovered: "While walking the dog",
+          whoDiscovered: "Developer(s)",
+          whoDiscoveredDetail: "",
+          howDiscovered: "Every project we work on includes a bias and fairness assessment phase. It is usually done by one of the more experienced developers and includes manual/visual inspection of the system and validation through AI Fairness 360 and a few algorithms we have built in-house",
           methodologies: "This, that and the other",
           tools: [
             {
@@ -108,27 +108,36 @@ export default {
               desc: "An open-source Python library",
             },
           ],
-          otherTool: "Another tool you don't know about",
+          otherTool: "We've been working on releasing our own algorithm as open source late ths year.",
           affectedGroups: [
-            { type: "Sex", detail: "Females < 50" },
-            { type: "Religion", detail: "Christians" },
-            { type: "Household income", detail: "Under 50K p.a." },
+            { type: "Sex", detail: "Female < 50" },
+            { type: "Sex", detail: "Female > 50" },
+            { type: "Sex", detail: "Male < 18" },
+            { type: "Religion", detail: "Christian" },
+            { type: "Religion", detail: "Muslim" },
+            { type: "Religion", detail: "Hindu" },
+            { type: "Religion", detail: "Jewish" },
+            { type: "Household income", detail: "Under $50K p.a." },
+            { type: "Household income", detail: "$50-80K p.a." },
+            { type: "Household income", detail: "over $50K p.a." },
           ],
           intersects: [
             {
-              groups: ["Religion - Christians", "Sex - Females < 50"],
+              groups: ["Religion - Christian", "Sex - Female < 50"],
               detail: "Were less likely to get help",
             },
             {
               groups: [
-                "Household income - Under 50K p.a.",
-                "Sex - Females < 50",
+                "Household income - Under $50K p.a.",
+                "Sex - Male < 18",
+                "Religion - Hindu"
               ],
+              detail: "More likely to experience delays in getting help",
             },
           ],
           allowPeerReview: true,
           moreInfo: "",
-          status: "Pending",
+          status: "Pending Review",
           methodologiesAsessment: ""
         },
       ],

@@ -285,6 +285,11 @@ export default {
           link: "",
           desc: "Human inspection"
         },
+         {
+          name: "Our own software",
+          link: "",
+          desc: "Proprietary software built by you for detecting Bias."
+        },
         {
           name: "AI Fairness 360",
           link: "https://aif360.mybluemix.net/",
@@ -311,12 +316,12 @@ export default {
           'Residence Location'
       ],
       whoDiscoveredOptions: [
-        'Developers',
-        'Data Scientists',
-        'Data providers',
-        'End Users',
-        'Reviewers',
-        'System designers',
+        'Developer(s)',
+        'Data Scientist(s)',
+        'Data provider(s)',
+        'End User(s)',
+        'Reviewer(s)',
+        'System designer(s)',
         'Other'
       ],
     };
