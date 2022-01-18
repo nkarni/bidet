@@ -2,29 +2,25 @@
   {
     "name": "list",
     "path": "/list",
-    "component": "/home/timofeybiryukov/nitzan/bidet/pages/list.vue",
-    "chunkName": "pages/list",
-    "_name": "_4c1b6a8d"
+    "component": "/client/pages/list.vue",
+    "chunkName": "pages/list"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "/home/timofeybiryukov/nitzan/bidet/pages/register.vue",
-    "chunkName": "pages/register",
-    "_name": "_27b35a92"
+    "component": "/client/pages/register.vue",
+    "chunkName": "pages/register"
   },
   {
     "name": "report",
     "path": "/report",
-    "component": "/home/timofeybiryukov/nitzan/bidet/pages/report.vue",
-    "chunkName": "pages/report",
-    "_name": "_4f3c9a63"
+    "component": "/client/pages/report.vue",
+    "chunkName": "pages/report"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/timofeybiryukov/nitzan/bidet/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_52c666f3"
+    "component": "/client/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]
