@@ -6,8 +6,8 @@
     <p>Welcome to Bidet!</h5>
     <p>
       In our quest to reduce or prevent harm caused by Bias in AI systems, we
-      have created an online reporitory of detected Bias. Designers, developers
-      and users of AI systems as well as researches and educators can report
+      have created an online repository of detected Bias. Designers, developers
+      and users of AI systems as well as researchers and educators can report
       bias they detect in their systems, or apply to access it for the purpose
       of research (our exact terms of use of the data are still being worked
       out).
@@ -21,7 +21,7 @@
       <li>If datasets are provided they must be anonymised</li>
       <li>Your submissions can be peer reviewed if you chose to allow that</li>
       <li>
-        At this stage no data will be shared pubicly or commercially, excpet for
+        At this stage no data will be shared publicly or commercially, except for
         the purpose of peer review when you agree to it. Otherwise it will only
         be used to help in the development of an AI based Automatic Bias
         Detection System

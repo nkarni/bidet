@@ -29,7 +29,7 @@
 		</table>
 		
 			<div class="col form-text " style="background:white;"><p>The list above includes an example record of bias that was detected in an AI system</p> 
-	<p>The NEW button will open an empty record. Feel free to try entering a new one. The data will not be persisted, a browser refresh will reload the initial state.</p></div>
+	<p>The NEW button will open an empty record. Feel free to try entering a new one. The data will not be persisted to a database; a browser refresh will reload the initial state.</p></div>
 	
 		
 	</div>

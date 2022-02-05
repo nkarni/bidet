@@ -2,25 +2,25 @@
   {
     "name": "list",
     "path": "/list",
-    "component": "/client/pages/list.vue",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/list.vue",
     "chunkName": "pages/list"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "/client/pages/register.vue",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/register.vue",
     "chunkName": "pages/register"
   },
   {
     "name": "report",
     "path": "/report",
-    "component": "/client/pages/report.vue",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/report.vue",
     "chunkName": "pages/report"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/client/pages/index.vue",
+    "component": "/Users/nitzankarni/Dev/vue/bidet/pages/index.vue",
     "chunkName": "pages/index"
   }
 ]
