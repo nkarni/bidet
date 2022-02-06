@@ -1,5 +1,7 @@
 <template>
-	<header class="header bg-light shadow mb-3"
+	<header 
+	v-if="hideHeader"
+	class="header bg-light border-bottom"
 		:class="{
 			'navbar-top':    scrollPosition < scrollOffset,
 			'navbar-scroll': scrollPosition > scrollOffset,
@@ -9,7 +11,14 @@
 		<nav class="navbar navbar-light navbar-expand-md">
 			<div class="container">
 				<NuxtLink to="/" class="navbar-brand">
-					<i class="bi bi-bootstrap fs-3"></i>
+					 <b-navbar-brand to="/">
+						<img
+							class="logo"
+							src="~/assets/img/logo-dark.svg"
+							alt="AI Bidet Logo"
+							v-if="this.$route.path"
+						>
+					</b-navbar-brand>
 				</NuxtLink>
 
 				<button @click="navbarOpen = !navbarOpen" type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +45,7 @@
 				scrollOffset:   100,
 				scrollPosition: 0,
 				menu: [
-					{ name: 'Overview', to: '#' },
-					{ name: 'Components', to: '#' },
-					{ name: 'Plugins', to: '#' },
-					{ name: 'Examples', to: '#' },
-					{ name: 'Support', to: '#' }
+					{ name: 'Logout', to: '#' }
 				]
 			}
 		},
@@ -48,6 +53,14 @@
 		methods: {
 			updateScroll() {
 			this.scrollPosition = window.scrollY
+			}
+		},
+
+		computed: {
+			hideHeader() {
+				console.log(this.$route.path)
+				console.log(['/','/register'].indexOf(this.$route.path))
+				return ['/','/register'].indexOf(this.$route.path) < 0
 			}
 		},
 		

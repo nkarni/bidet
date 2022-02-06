@@ -2,6 +2,6 @@
   <div class="layout">
     <Header />
     <Nuxt />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>

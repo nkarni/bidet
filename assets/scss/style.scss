@@ -19,3 +19,15 @@
 @import "pages";
 @import "components";
 @import "custom";
+
+
+.logo{
+    max-width: 120px;
+}
+
+.title-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
